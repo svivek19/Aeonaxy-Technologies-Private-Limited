@@ -1,5 +1,6 @@
 import React from "react";
 import weight from "../assets/weight.svg";
+import { Link } from "react-router-dom";
 
 const ThirdPage = () => {
   return (
@@ -22,9 +23,12 @@ const ThirdPage = () => {
         </div>
       </div>
       <div className="w-11/12 md:w-5/6 mx-auto mt-20 text-center">
-        <button className="bg-gray-900 px-10 text-white font-semibold text-lg py-3 rounded-md">
+        <Link
+          to={"/math"}
+          className="bg-gray-900 px-10 text-white font-semibold text-lg py-3 rounded-md"
+        >
           Continue
-        </button>
+        </Link>
       </div>
     </div>
   );

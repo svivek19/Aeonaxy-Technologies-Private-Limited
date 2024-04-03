@@ -6,18 +6,21 @@ import FourthPage from "./pages/FourthPage";
 import FifthPage from "./pages/FifthPage";
 import Loading from "./pages/Loading";
 import FinalPage from "./pages/FinalPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      {/* <FirstPage /> */}
-      {/* <SecondPage /> */}
-      {/* <ThirdPage /> */}
-      {/* <FourthPage /> */}
-      {/* <FifthPage /> */}
-      {/* <Loading /> */}
-      <FinalPage />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/intrested" element={<SecondPage />} />
+        <Route path="/rightplace" element={<ThirdPage />} />
+        <Route path="/math" element={<FourthPage />} />
+        <Route path="/ontheway" element={<FifthPage />} />
+        <Route path="/loading" element={<Loading />} />
+        <Route path="/final" element={<FinalPage />} />
+      </Routes>
+    </Router>
   );
 };
 
