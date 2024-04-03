@@ -5,6 +5,7 @@ import ThirdPage from "./pages/ThirdPage";
 import FourthPage from "./pages/FourthPage";
 import FifthPage from "./pages/FifthPage";
 import Loading from "./pages/Loading";
+import FinalPage from "./pages/FinalPage";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <ThirdPage /> */}
       {/* <FourthPage /> */}
       {/* <FifthPage /> */}
-      <Loading />
+      {/* <Loading /> */}
+      <FinalPage />
     </>
   );
 };
