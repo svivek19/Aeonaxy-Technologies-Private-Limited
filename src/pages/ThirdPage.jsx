@@ -9,7 +9,7 @@ const ThirdPage = () => {
           <div className="flex justify-center">
             <img src={weight} alt="" width={250} />
           </div>
-          <div className="mt-10">
+          <div className="mt-14">
             <h1 className="text-3xl mb-5 font-semibold">
               You're in the right place
             </h1>
