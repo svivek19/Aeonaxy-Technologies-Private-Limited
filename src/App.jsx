@@ -3,6 +3,7 @@ import FirstPage from "./pages/FirstPage";
 import SecondPage from "./pages/SecondPage";
 import ThirdPage from "./pages/ThirdPage";
 import FourthPage from "./pages/FourthPage";
+import FifthPage from "./pages/FifthPage";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <FirstPage /> */}
       {/* <SecondPage /> */}
       {/* <ThirdPage /> */}
-      <FourthPage />
+      {/* <FourthPage /> */}
+      <FifthPage />
     </>
   );
 };
