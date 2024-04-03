@@ -20,7 +20,7 @@ const FourthPage = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-0 md:gap-4">
         <div
           className={`border border-slate-300 cursor-pointer p-10 rounded-md mt-8 flex flex-col justify-center items-center ${
             selectedOption === "arithmetic" ? "border-slate-900" : ""
